@@ -1,23 +1,23 @@
-# 🎮 Terminho
+# Terminho
 
 Um jogo de adivinhação de palavras no terminal, inspirado no **TERMO**, desenvolvido em **Java**.
 E uma breve prática de manipulação de arquivos JSON.
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-- 🎯 **Modo Termo**: adivinhe uma palavra de 5 letras em até 5 tentativas.  
-- 🟩 **Feedback visual com cores**:
+- **Modo Termo**: adivinhe uma palavra de 5 letras em até 5 tentativas.  
+- **Feedback visual com cores**:
   - Verde → Letra correta no lugar certo  
   - Amarelo → Letra correta no lugar errado  
   - Sem cor → Letra não está na palavra  
-- 💾 **Salvamento local**: dados armazenados em `jogador.json`  
-- 🧠 **Banco de palavras** "extenso" e randômico
+- **Salvamento local**: dados armazenados em `jogador.json`  
+- **Banco de palavras** "extenso" e randômico
 
 ---
 
-## 🎮 Como Jogar
+## Como Jogar
 
 1. Execute o jogo no terminal.  
 2. Digite seu nome (caso seja sua primeira vez).  
@@ -28,7 +28,7 @@ E uma breve prática de manipulação de arquivos JSON.
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 com.terminho.terminho
@@ -38,15 +38,7 @@ com.terminho.terminho
 ├── view              → Interface no terminal (GameView.java)
 └── utils             → Utilitários (leitura, palavras, cores)
 ```
-
 ---
-
-## 📦 Dependências
-
-- [Gson](https://github.com/google/gson): para salvar e carregar dados em JSON
-
----
-
 ## 🛠️ Como Compilar e Executar
 
 ```bash
@@ -64,15 +56,4 @@ java -jar target/Terminho-1.0-SNAPSHOT.jar
 ```
 
 ---
-
-## 👨‍💻 Autor
-
-**Eric Fritzen Valle**  
-GitHub: [@ericfr1tzenvalle](https://github.com/ericfr1tzenvalle)
-
----
-
-## 📝 Licença
-
-Projeto de uso acadêmico — sem licença específica.
 
